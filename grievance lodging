@@ -1,0 +1,69 @@
+<html>
+<head>
+<script type="text/javascript">
+function check_info()
+{
+var Name=document.getElementById('name').value;
+var Address=document.getElementById('address').value;
+var Mobile_no=document.getElementById('mobile').value;
+var Department=document.getElementById('dept').value;
+
+
+if(Name=="" || Address=="" || Mobile_no=="")
+{
+alert('Please Fill In All Fields');
+return false;
+}
+else
+{
+return true;
+}
+}
+
+</script>
+</head>
+<body style="background-image:url('pics/pic10.jpg');background-size:cover">
+<div style="background-color:#0099FF;height:15%;padding:1%">
+<img src="pics/pic17.jpg"  height="100%">
+<h2 style="color:#ffffff;display:inline;padding:5%;font-size:1.8em;font-family:Verdana"> 
+Banaras Hindu University Grievance Redressal Portal
+</h2>
+</div>
+<div style="background-color:#22987f;color:#990000;font-family:cursive;margin:1%;padding:1%">
+<marquee direction="left">
+Brought to you by <i><a href="#" style="text-decoration:none">Department of Computer Science</i>
+</marquee>
+</div>
+<div>
+<h3 style="text-align:center;background-color:#0899ff">Grievance Registration Form</h3>
+<div style="border 1px #0899ff solid">
+<form action="submission.html" method="post" onsubmit="return check_info()">
+Grievance Concerns  <input type="radio" name="concern" value="Students">Students
+<input type="radio" name="concern" value="Employee">Employee<br>
+Students
+Select Department/Faculty<br>
+<select name="faculty" id="dept">
+<option value="Science">Science</option>
+<option value="Arts">Arts</option>
+<option value="MMV">MMV</option>
+<option value="Management">Management</option>
+<option value="Agriculture">Agriculture</option>
+<option value="Commerce">Commerce</option>
+<option value="Social Science">Social Science</option>
+<option value="Ayurveda">Ayurveda</option>
+<option value="Shastri">Shastri</option>
+<option value="Sanskrit">Sanskrit</option>
+<option value="Education">Education</option>
+</select><br>
+Name   <br> <input type="text" name="name" id="name"/><br>
+Address <br><input type="text" name="address" id="address"/><br>
+        <input type="text" name="address" id="address"/><br>
+        <input type="text" name="address" id="address"/><br>
+Mobile No.<br><input type="number" name="mobile" id="mobile"/><br>
+<input type="submit" value="Submit">
+
+
+</div>
+</div>
+</body>
+</html>
