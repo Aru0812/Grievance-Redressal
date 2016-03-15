@@ -11,7 +11,7 @@ Banaras Hindu University Grievance Redressal Portal
 </div>
 <div style="background-color:#22987f;color:#990000;font-family:cursive;margin:1%;padding:1%">
 <marquee direction="left">
-Brought to you by <i><a href="#" style="text-decoration:none">Department of Computer Science</i>
+Brought to you by <i><a href="#" style="text-decoration:none"> Department of Computer Science (BHU) </i>
 </marquee>
 </div>
 <div>
