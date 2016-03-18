@@ -43,6 +43,7 @@ Grievance Concerns  <input type="radio" name="concern" value="Students">Students
 Students
 Select Department/Faculty<br>
 <select name="faculty" id="dept">
+<option selected="select" value="Select">Select</option>
 <option value="Science">Science</option>
 <option value="Arts">Arts</option>
 <option value="MMV">MMV</option>
